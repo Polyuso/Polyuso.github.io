@@ -3,6 +3,12 @@ var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { create: 
 
 var floor;
 
+function preload(){
+    this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+    this.scale.pageAlignVertically = true;
+    this.scale.setScreenSize( true );
+}
+
 function create() {
 
     floor = new Phaser.Rectangle(0, 550, 800, 50);
