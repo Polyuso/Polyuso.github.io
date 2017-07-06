@@ -1,5 +1,5 @@
 function GamePlayer(){
-	this.Position = createVector(0, 0, 0);
+	this.Position = createVector(395, 295, 0);
 	
 	this.update = function(){
 		//this.Position.add(0, 1, 0);
