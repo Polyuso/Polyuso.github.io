@@ -9,7 +9,7 @@ function create() {
     this.scale.pageAlignVertically = true;
     this.scale.setScreenSize( true );
 
-    floor = new Phaser.Rectangle(0, 550, 800, 50);
+    floor = new Phaser.Rectangle(0, 550, 800, 49);
 
 }
 
